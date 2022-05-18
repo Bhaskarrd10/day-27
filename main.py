@@ -12,8 +12,11 @@ my_label.pack(side="left")
 my_label["text"] = "New Text"
 my_label.config(text="New Text")
 
+def button_clicked():
+    print("I got clicked")
 
 button = Button(text="Click Me")
+button.pack()
 
 
 window.mainloop()
